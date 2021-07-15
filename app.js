@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import {add , divide , multiply , subtract} from '../utils.js';
+import { add, divide, multiply, subtract } from '../utils.js';
 
 // using a test library
 const test = QUnit.test;
@@ -15,7 +15,7 @@ test('add should take in 5 and 3 and return 8', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual, expected); 
 });
 
 
@@ -30,7 +30,7 @@ test('subtract should take in 23 and -10 and return 33', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual, expected); 
 });
 
 
@@ -45,7 +45,7 @@ test('divide should take in 100 and 0 return 100', (expect) => {
 
     //Expect
     // Make assertions about what is expected versus the actual result
-    expect.equal(actual, expected);
+    expect.equal(actual, expected); 
 });
 
 test('multiply should take in "5" and 3 return 15', (expect) => {
