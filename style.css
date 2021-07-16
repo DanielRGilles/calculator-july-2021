@@ -1,10 +1,36 @@
+.header-top {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    text-decoration: whitesmoke;
+}
+
 .calc-box {
     display: grid;
     justify-content: center;
     align-content:space-between;
     padding:35px;
+    text-align: center;
+    border: solid rgb(30, 30, 31) 3px;
+    margin: 0 25% 0 25%;
+    background-color: rgb(174, 245, 235);
 }
 
 .input-box1 {
     align-content: space-between;
+}
+body {
+    background-color: rgba(146, 80, 80, 0.884);
+    align-content: center;
+}
+span {
+    background-color: black;
+    color: white;
+    margin-top: 15px;
+    
+}
+.modify {
+    font-weight: 900;
+    font-size: 3rem;
 }
