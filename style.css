@@ -14,14 +14,14 @@
     text-align: center;
     border: solid rgb(30, 30, 31) 3px;
     margin: 0 25% 0 25%;
-    background-color: rgb(174, 245, 235);
+    background-color: #a37c40;
 }
 
 .input-box1 {
     align-content: space-between;
 }
 body {
-    background-color: rgba(146, 80, 80, 0.884);
+    background-color: #026c7c;
     align-content: center;
 }
 span {
